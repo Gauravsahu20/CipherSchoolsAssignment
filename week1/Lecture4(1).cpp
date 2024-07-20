@@ -2,9 +2,9 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int a,b,c,d;
-    cout<<"input 4 integers:"<<endl;
-    cin>>a>>b>>c>>d;
-    cout<<(a>b && c>d)<<endl;
-    cout<<(a<b || d>c)<<endl;
+    int a,b;
+    a =3;
+    b =5;
+   cout<<a+b<<endl<<"a+b";
+    
 }
