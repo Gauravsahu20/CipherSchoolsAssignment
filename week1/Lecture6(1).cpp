@@ -1,15 +1,19 @@
-#include <bits/stdc++.h>
+#include<iostream>
 using namespace std;
 int main(){
 //Postfix and Prefix increament
-	int i,j,k;
-	i=0;
-	j=0;
-	k=0;
+	int a,b,c;
+	cout<<"give three integer as input : a,b,c:"<<endl;
+	cin>>a>>b>>c;
+	if(a>b && c>d){
+		cout<<"haha";
+	}
+	else if(a>b && c<d){
+		cout<<"hehe";
+	}
+	else(a<b && c>d){
+		cout<<"huhu";
+		
+	}
 	
-	cout<<i<<" "<<j<<" "<<k<<endl;
-	j=i++;
-	cout<<i<<" "<<j<<" "<<k<<endl;
-	k=++i;
-	cout<<i<<" "<<j<<" "<<k<<endl;
 }
