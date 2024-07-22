@@ -13,3 +13,16 @@ break;
 }
 }
 }
+
+
+//code 1
+#include<iostream>
+using namespace std;
+int main(){
+i=1;//initilizatiom
+while(i<101)//condtion
+{
+    cout<<i;
+    i++;//updation
+}
+}
